@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/bg.png");
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+}
+p {
+  line-height: 16px;
+  color: #fff;
+  font-size: 10px;
+}
+.btn {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid red;
+  padding: 12px 28px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 30px;
+  transition: 0.5s ease;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+nav ul li a:hover {
+  color: #000;
+}
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+  column-gap: 10px;
+}
+.col {
+  flex-basis: 50%;
+}
+h1 {
+  font-size: 100px;
+  color: #fff;
+}
+.desc {
+  font-size: 16px;
+}
+.cards {
+  max-width: 500px;
+  margin: auto;
+}
+.card {
+  width: 200px;
+  height: 230px;
+  border: 1px solid red;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  border-color: #fff;
+}
+.card .card-head {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.card .card-bottom {
+  position: absolute;
+  bottom: 26px;
+}
+
+.card-1 {
+  background-image: url("images/pic-1.png");
+}
+.card-2 {
+  background-image: url("images/pic-2.png");
+}
+
+.card-3 {
+  background-image: url("images/pic-3.png");
+}
+.card-4 {
+  background-image: url("images/pic-4.png");
+}
